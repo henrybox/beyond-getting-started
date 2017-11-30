@@ -7,11 +7,9 @@
     "code": "./"
   },
   "applications": {
-    "tests": "./application/application.json"
+    "tests": "./application.json"
   },
-  "libraries": {
-    "graphs": "./lib/library.json"
-  },
+
   "defaults": {
     "application": "tests",
     "language": "spa"
