@@ -9,7 +9,6 @@
   "applications": {
     "tests": "./application.json"
   },
-
   "defaults": {
     "application": "tests",
     "language": "spa"
