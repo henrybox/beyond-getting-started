@@ -1,0 +1,19 @@
+{
+  "ports": {
+    "http": "3060",
+    "rpc": "3061"
+  },
+  "paths": {
+    "code": "./"
+  },
+  "applications": {
+    "tests": "./application/application.json"
+  },
+  "libraries": {
+    "graphs": "./lib/library.json"
+  },
+  "defaults": {
+    "application": "tests",
+    "language": "spa"
+  }
+}

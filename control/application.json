@@ -1,0 +1,34 @@
+{
+  "version": "0.1",
+  "static": [
+    "index.html",
+    "styles.css",
+    "bootstrap.css"
+  ],
+  "imports": {
+    "libraries": [
+      "graphs/v1"
+    ]
+  },
+  "params": {
+    "graphs": {
+      "routes": {
+        "2": "libraries/graphs/entities/users/profile/routing",
+        "4": "libraries/graphs/entities/contents/view",
+        "6": "libraries/graphs/pages/contents/gallery/view",
+        "5": "libraries/graphs/pages/sections/section/view",
+        "7": "libraries/graphs/picture",
+        "23": "libraries/graphs/entities/contents/view"
+      },
+      "users": {
+        "user": "graphs-profile-view"
+      }
+    },
+    "application": {
+      "name": "Personal Fest - DEV",
+      "id": "59ad97843039354e5a66aace",
+      "key": "078b8d0c842f2bd0d3136e30e42dacb5"
+    }
+  },
+  "connect": false
+}
