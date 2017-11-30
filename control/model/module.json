@@ -1,0 +1,10 @@
+{
+  "code": {
+    "js": {
+      "files": [
+        "model.js",
+        "define.js"
+      ]
+    }
+  }
+}

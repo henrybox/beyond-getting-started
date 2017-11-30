@@ -1,0 +1,45 @@
+{
+  "page": {
+    "route": "new_control_model",
+    "dependencies": {
+      "controls": [
+        "paper-toolbar",
+        "paper-button",
+        "new-control-model"
+      ]
+    },
+    "js": "page/page.js",
+    "html": {
+      "path": "page",
+      "files": "page.html"
+    },
+    "less": "page/styles.less"
+  },
+  "control": {
+    "id": "new-control-model",
+    "dependencies": {
+      "controls": [
+        "paper-button"
+      ],
+      "require": {
+        "application/model/code": "User"
+      }
+    },
+    "properties": {
+      "userId": "String"
+    },
+    "methods": [
+      "refresh"
+    ],
+    "js": [
+      "js/controller.js",
+      "js/state.js",
+      "js/actions.js",
+      "js/define.js"
+    ],
+    "jsx": {
+      "path": "jsx",
+      "files": "*"
+    }
+  }
+}
