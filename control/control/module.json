@@ -1,6 +1,6 @@
 {
   "page": {
-    "route": "new_control_model",
+    "route": "control",
     "dependencies": {
       "controls": [
         "paper-toolbar",
