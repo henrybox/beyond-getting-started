@@ -1,11 +1,11 @@
 {
-  "type": "control"
+  "type": "control",
   "id": "new-control-model",
   "dependencies": {
     "controls": [
       "paper-button"
     ],
-    "require": {
+    "code": {
       "application/model/code": "User"
     }
   },
