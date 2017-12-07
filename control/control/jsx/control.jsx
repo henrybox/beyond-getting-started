@@ -9,7 +9,7 @@ exports = module.react.createControl({
                 <paper-button key="button" raised onClick={actions.initialise}>
                     Initialise
                 </paper-button>
-            );
+                  );
         }
         else {
             output.push(

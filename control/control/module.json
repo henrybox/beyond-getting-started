@@ -1,29 +1,28 @@
 {
-  "control": {
-    "id": "new-control-model",
-    "dependencies": {
-      "controls": [
-        "paper-button"
-      ],
-      "require": {
-        "application/model/code": "User"
-      }
-    },
-    "properties": {
-      "userId": "String"
-    },
-    "methods": [
-      "refresh"
+  "type": "control"
+  "id": "new-control-model",
+  "dependencies": {
+    "controls": [
+      "paper-button"
     ],
-    "js": [
-      "js/controller.js",
-      "js/state.js",
-      "js/actions.js",
-      "js/define.js"
-    ],
-    "jsx": {
-      "path": "jsx",
-      "files": "*"
+    "require": {
+      "application/model/code": "User"
     }
+  },
+  "properties": {
+    "userId": "String"
+  },
+  "methods": [
+    "refresh"
+  ],
+  "js": [
+    "js/controller.js",
+    "js/state.js",
+    "js/actions.js",
+    "js/define.js"
+  ],
+  "jsx": {
+    "path": "jsx",
+    "files": "*"
   }
 }
