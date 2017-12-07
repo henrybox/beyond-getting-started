@@ -12,6 +12,7 @@ You can create different modules types. The main module types are:
     * **page**: page modules can be access by url and integrate other modules types.
     * **code**
     * **custom**
+    * **static**
 
 Example module json with one type:
 ```
@@ -48,7 +49,7 @@ Example module json with one type:
 
 If you need to implement more than one module type, you don't may use the "type" property,
 you will need to create two differents objects.
-Example
+The next Example includes 3 module types:
 ```
 {
   "page": {
