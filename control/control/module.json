@@ -18,8 +18,7 @@
   "js": [
     "js/controller.js",
     "js/state.js",
-    "js/actions.js",
-    "js/define.js"
+    "js/actions.js"
   ],
   "jsx": {
     "path": "jsx",

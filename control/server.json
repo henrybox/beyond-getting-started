@@ -9,6 +9,9 @@
   "applications": {
     "tests": "./application.json"
   },
+  "types": [
+    "../node_modules/beyond/types"
+  ],
   "defaults": {
     "application": "tests",
     "language": "spa"
